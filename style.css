@@ -1,3 +1,7 @@
+body {
+    background-color: yellow;
+}
+
 /* Style the list items */
 ul li {
     cursor: pointer;
