@@ -1,6 +1,6 @@
 body {
     background-color: yellow;
-}
+
 
 /* Style the list items */
 ul li {
@@ -111,4 +111,5 @@ input {
 ul {
     margin: 0;
     padding: 0;
+}
 }
