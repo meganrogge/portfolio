@@ -58,10 +58,7 @@
    
  </center>
   
-
- <script>
-
-
+<script>
   var myNodelist = document.getElementsByTagName("LI");
 var i;
 for (i = 0; i < myNodelist.length; i++) {
@@ -88,7 +85,7 @@ list.addEventListener('click', function(ev) {
   if (ev.target.tagName === 'LI') {
     ev.target.classList.toggle('checked');
   }
-} false);
+}, false);
 
 // Create a new list item when clicking on the "Add" button
 function newElement() {
@@ -115,9 +112,7 @@ function newElement() {
       div.style.display = "none";
     }
   }
-
- 
-
+}
   </script>
  
 </body>
