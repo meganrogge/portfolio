@@ -57,8 +57,6 @@
 
  <script>
 
-<span onclick="newElement()" class="addBtn">Add</span>
-
 
   var myNodelist = document.getElementsByTagName("LI");
 var i;
@@ -86,7 +84,7 @@ list.addEventListener('click', function(ev) {
   if (ev.target.tagName === 'LI') {
     ev.target.classList.toggle('checked');
   }
-}, false);
+} false);
 
 // Create a new list item when clicking on the "Add" button
 function newElement() {
@@ -113,18 +111,7 @@ function newElement() {
       div.style.display = "none";
     }
   }
-}
 
-
-<ul id="myUL">
-  <li>Task A</li>
-  <li>Task B</li>
-  <li>Task C</li>
-  <li>Task D</li>
-  <li>Task E</li>
-  <li>Task F</li>
-
-</ul>
  
 var myNodelist = document.getElementsByTagName("LI");
 var i;
