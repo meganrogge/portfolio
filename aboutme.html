@@ -27,7 +27,13 @@
   <input type="text" id="myInput" placeholder="Title...">
   <span onclick="newElement()" class="addBtn">Add</span>
     </div>  
-<script>
+  <div id="myDIV" class="header">
+  <h3>Dislkes</h3>
+  <input type="text" id="myInput" placeholder="Title...">
+  <span onclick="newElement()" class="addBtn">Add</span>
+    </div>  
+
+  <script>
 
 <ul id="myUL">
   <li>Task A</li>
@@ -95,10 +101,6 @@ function newElement() {
     }
   }
 }
-      <h3>Dislikes</h3>
-  <input type="text" id="myInput" placeholder="Title...">
-  <span onclick="newElement()" class="addBtn">Add</span>
-    </div>  
 
 
 <ul id="myUL">
@@ -111,11 +113,7 @@ function newElement() {
 
 </ul>
  
-
-
-
-  <script>
-  var myNodelist = document.getElementsByTagName("LI");
+var myNodelist = document.getElementsByTagName("LI");
 var i;
 for (i = 0; i < myNodelist.length; i++) {
   var span = document.createElement("SPAN");
